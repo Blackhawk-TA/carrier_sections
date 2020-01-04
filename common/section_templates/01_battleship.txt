@@ -68,7 +68,7 @@ ship_section_template = {
 	ship_size = battleship
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = "battleship_stern_L1_entity"
+	entity = "battleship_stern_M2_entity"
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
@@ -113,7 +113,7 @@ ship_section_template = {
 	ship_size = battleship
 	fits_on_slot = stern
 	should_draw_components = yes
-	entity = "battleship_stern_L1_entity"
+	entity = "battleship_stern_M2_entity"
 	icon = "GFX_ship_part_core_stern"
 	
 	ai_weight = {

@@ -3,5 +3,7 @@ tags={
 	"Military"
 	"Spaceships"
 }
-name="Carrier Modules"
+picture="thumbnail.png"
+name="Carrier Ship Sections"
 supported_version="2.5.1"
+remote_file_id="1959752681"
