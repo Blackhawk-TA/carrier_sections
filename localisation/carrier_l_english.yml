@@ -1,0 +1,24 @@
+﻿l_english:
+
+ ####################################
+ # Titan
+ ####################################
+ 
+ TITAN_BOW_HANGAR:0 "Titan Hangar Bow"
+ TITAN_MID_HANGAR:0 "Titan Hangar Core I"
+ TITAN_MID_LARGE_HANGAR:0 "Titan Hangar Core II"
+ TITAN_STERN_HANGAR:0 "Titan Hangar Stern"
+
+ ####################################
+ # Battleship
+ ####################################
+
+ BATTLESHIP_MID_HANGAR:0 "Large Carrier Core"
+ BATTLESHIP_STERN_HANGAR:0 "Carrier Stern"
+ BATTLESHIP_STERN_FLAK:0 "Flak Stern"
+
+ ####################################
+ # Cruiser
+ ####################################
+
+ CRUISER_STERN_FLAK:0 "Flak Stern"
