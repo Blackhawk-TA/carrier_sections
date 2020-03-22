@@ -5,5 +5,5 @@ tags={
 }
 picture="thumbnail.png"
 name="Carrier Ship Sections"
-supported_version="2.5.1"
+supported_version="2.6.1"
 remote_file_id="1959752681"

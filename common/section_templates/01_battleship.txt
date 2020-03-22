@@ -11,42 +11,36 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_mid"
 
 	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_01"
+		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_02"
+		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
 	}	
 	component_slot = {
 		name = "STRIKE_CRAFT_02"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = -90
 		locatorname = "strike_craft_locator_02"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_03"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "strike_craft_locator_03"
 	}	
 	component_slot = {
 		name = "STRIKE_CRAFT_04"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = -90
 		locatorname = "strike_craft_locator_04"
 	}
@@ -72,28 +66,24 @@ ship_section_template = {
 	icon = "GFX_ship_part_core_stern"
 	
 	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_01"
+		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 	component_slot = {
-		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_02"
+		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
 	}	
 	component_slot = {
 		name = "STRIKE_CRAFT_02"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = -90
 		locatorname = "strike_craft_locator_02"
 	}
@@ -128,29 +118,25 @@ ship_section_template = {
 	}
 	
 	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_01"
+		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 	
 	component_slot = {
-		name = "SMALL_GUN_01"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_02"
+		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
 	
 	component_slot = {
-		name = "SMALL_GUN_02"
-		slot_size = point_defence
-		slot_type = weapon
+		name = "PD_03"
+		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 	component_slot = {
 		name = "STRIKE_CRAFT_01"
-		slot_size = large
-		slot_type = strike_craft
+		template = "large_strike_craft"
 		rotation = 90
 		locatorname = "strike_craft_locator_01"
 	}
