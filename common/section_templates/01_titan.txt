@@ -40,12 +40,6 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_03"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_04"
-	}
-	component_slot = {
 		name = "PD_01"
 		template = "point_defence_turret"
 		locatorname = "small_gun_01"
@@ -106,11 +100,10 @@ ship_section_template = {
 		locatorname = "strike_craft_locator_03"
 	}
 	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_04"
-	}
+		name = "MEDIUM_GUN_01"
+		template = "medium_turret"
+		locatorname = "medium_gun_01"
+	}	
 	component_slot = {
 		name = "PD_01"
 		template = "point_defence_turret"
@@ -121,7 +114,7 @@ ship_section_template = {
 		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
-	
+
 	large_utility_slots = 6
 
 	resources = {
@@ -175,18 +168,6 @@ ship_section_template = {
 		rotation = 90
 		locatorname = "strike_craft_locator_04"
 	}
-	component_slot = {
-		name = "STRIKE_CRAFT_05"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_05"
-	}
-	component_slot = {
-		name = "STRIKE_CRAFT_06"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_06"
-	}
 	
 	large_utility_slots = 6
 
@@ -220,29 +201,56 @@ ship_section_template = {
 		rotation = 90
 		locatorname = "strike_craft_locator_02"
 	}
+	
+	aux_utility_slots = 3
+
+	resources = {
+		category = ship_sections
+		cost = {
+			alloys = @section_cost
+		}
+	}
+}
+
+ship_section_template = {
+	key = "TITAN_STERN_FLAK"
+	ship_size = titan
+	fits_on_slot = stern
+	should_draw_components = yes
+	entity = "titan_stern_entity"
+	icon = "GFX_ship_part_core_stern"
+	
 	component_slot = {
-		name = "STRIKE_CRAFT_03"
+		name = "STRIKE_CRAFT_01"
 		template = "large_strike_craft"
 		rotation = 90
-		locatorname = "strike_craft_locator_03"
+		locatorname = "strike_craft_locator_01"
 	}
-	component_slot = {
-		name = "STRIKE_CRAFT_04"
-		template = "large_strike_craft"
-		rotation = 90
-		locatorname = "strike_craft_locator_04"
-	}
+	
 	component_slot = {
 		name = "PD_01"
 		template = "point_defence_turret"
 		locatorname = "small_gun_01"
 	}
+	
 	component_slot = {
 		name = "PD_02"
 		template = "point_defence_turret"
 		locatorname = "small_gun_02"
 	}
 	
+	component_slot = {
+		name = "PD_03"
+		template = "point_defence_turret"
+		locatorname = "small_gun_03"
+	}
+
+	component_slot = {
+		name = "PD_04"
+		template = "point_defence_turret"
+		locatorname = "small_gun_04"
+	}
+
 	aux_utility_slots = 3
 
 	resources = {

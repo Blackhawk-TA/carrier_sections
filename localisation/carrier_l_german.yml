@@ -8,6 +8,7 @@
  TITAN_MID_HANGAR:0 "Titanen-Kern Hangar I"
  TITAN_MID_LARGE_HANGAR:0 "Titanen-Kern Hangar II"
  TITAN_STERN_HANGAR:0 "Titanen-Heck Hangar"
+ TITAN_STERN_FLAK:0"Titanen-Heck Flak"
 
  ####################################
  # Battleship
